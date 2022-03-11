@@ -7,6 +7,7 @@ import (
 	"github.com/oklog/ulid"
 )
 
+// NewULID generates a random ulid.
 func NewULID() (string, error) {
 	t := time.Now()
 	es := rand.New(rand.NewSource(t.UnixNano()))

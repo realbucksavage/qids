@@ -1,4 +1,4 @@
-# A quick ID generation utility
+# Generates IDs on CLI quickly
 
 ```
 Usage:
@@ -17,5 +17,5 @@ Available Commands:
 ### Using Go
 
 ```
-go install github.com/realbucksavage/qids/cmd/qids
+go install github.com/realbucksavage/qids@latest
 ```
